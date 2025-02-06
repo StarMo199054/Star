@@ -1,0 +1,105 @@
+*{ /* 全局 */
+    margin: 0;
+    padding: 0;
+}
+.container-center{ /* 居中 */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;/* 垂直居中 */
+}
+.margin-top{ /* 顶部 */
+    margin-top: 50px;
+}
+@font-face { /* 引入字体 */
+    font-family: 'Hd-Font';
+    src: url('/ttf/LXGWWenKaiMonoTC-Bold.ttf');
+}
+.Hd-Font{ /* 使用字体 */
+    font-family: Hd-Font;
+    color: #000000;
+}
+a:link { /* 去掉 所有 超链接下划线 */
+    text-decoration:none;
+} 
+.border-radius{ /* 圆角 */
+    border-radius: 20px;
+}
+.bg-HD{ /* 背景色 */
+    background-color: #2E8B57;
+}
+.line{ /* 线条 */
+    flex-grow: 1;/* 占满剩余空间 */
+    border-top: 3px solid #000000; /* 线条颜色 */
+}
+.align-items-center{
+    align-items: center;/* 垂直居中 */
+}
+.Carousel-H{/* 轮播图 */
+    height: 520px;
+}
+a.ex3hover:hover,a.ex3hover:active { /* 鼠标悬停 */
+    background:rgb(182, 180, 180);
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.navbarPadding0{
+    padding: 0; /* 去掉默认的padding */
+}
+.fontColorblack{
+    color: #000000; /* 字体颜色 */
+}
+.li-padding{ /* 列表间距 */
+    padding-top: 10px;/* 列表间距 */
+    padding-bottom: 10px;/* 列表间距 */
+    margin-bottom: 10px;/* 防止列表间距过大 */
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    width: calc(50% - 5px); /* 宽度 */
+}
+.list-style{/* 列表样式 */
+    padding-left: 0;
+    list-style: none; /* 去掉列表符号 */
+}
+.display{/* 显示 */
+    display: flex; /* 显示为flex */
+    justify-content: space-between; /* 两端对齐 */
+}
+.flex-wrap {/* 换行 */
+    -ms-flex-wrap: wrap !important;/* 兼容IE */
+    flex-wrap: wrap !important;/* 换行 */
+}
+a.ex1hover:hover { /* 鼠标悬停 */
+    transition: all 0.3s ease-in-out;
+    color: #fdfdfd;
+}
+.display-flex{/* 显示 */
+    display: flex; /* 显示为flex  display: flex 后，容器内的子元素会按照一定的规则自动排列 */
+}
+.margin{
+    margin-right: 20px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border: solid 1px #2E8B57;/* 边框 */
+}
+.list-style-none{/* 列表样式 */
+    list-style: none; /* 去掉列表符号 */
+}
+.date {
+    margin-right: 1.25rem;
+    width: 150px;
+    flex-shrink: 0;/* 宽度 */
+    margin-top: 15px;
+    margin-left: 15px;
+    padding-left: 10px;
+}
+.title{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+a.ex2hover:hover{
+    background-color: #ddeee3;
+}
